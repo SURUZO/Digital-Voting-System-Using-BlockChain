@@ -1,0 +1,88 @@
+/* Updated CSS for Registration */
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Inline grid for div-li */
+.div-li {
+  display: inline-grid;
+}
+
+/* Input styling */
+.input-r {
+  margin: 0.5em 0;
+  padding: 1em;
+  display: block;
+  overflow: auto; /* Changed 'scroll' to 'auto' for automatic scrolling */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+/* On focus, highlight input */
+.input-r:focus {
+  outline: none;
+  border-color: #0074d9;
+  box-shadow: 0 0 5px rgba(0, 116, 217, 0.5);
+}
+
+/* Label styling */
+.label-r {
+  margin: 0.1em 0;
+  padding: 0.5em;
+  display: block;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Add button styling */
+.btn-add {
+  width: 50%;
+  padding: 1em;
+  float: right;
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-add:hover {
+  background-color: #005ea6;
+}
+
+/* Note text styling */
+.note {
+  width: 90%;
+  padding: 11px;
+  padding-left: 1px;
+  text-align: justify;
+  max-height: 111px;
+  overflow: auto;
+  line-height: 1.5em;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px; /* Added margin bottom for spacing */
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,48 @@
+/* Updated CSS for Footer */
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; /* Updated font family for better readability */
+}
+
+/* Footer container */
+.footer {
+  background-color: #f8f9fa; /* Lighter background color */
+  border-top: 1px solid #e7e7e7;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0; /* Increased padding for better spacing */
+}
+
+/* Footer block */
+.footer-block {
+  display: block;
+  height: 50px; /* Adjusted height for better separation */
+}
+
+/* Profile link styling */
+a.profile {
+  color: #007bff; /* Updated link color */
+  text-decoration: none; /* Removed underline */
+  transition: color 0.3s ease;
+}
+
+/* Profile link hover effect */
+a.profile:hover {
+  color: #0056b3; /* Darker shade on hover */
+}
+
+/* Footer container for alignment */
+.footer-container {
+  max-width: 1200px; /* Adjusted max width for better responsiveness */
+  margin: 0 auto; /* Center the container horizontally */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

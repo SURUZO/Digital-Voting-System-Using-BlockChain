@@ -1,0 +1,63 @@
+/* Updated CSS */
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; /* Updated font family for better readability */
+}
+
+/* Container styling */
+.container-main {
+  margin: 20px auto; /* Center the container horizontally */
+  padding: 20px;
+  background-color: #f9f9f9; /* Lighter background color */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.container-main h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* List styling */
+.container-item {
+  margin-bottom: 15px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Border between table rows */
+}
+
+th {
+  background-color: #f2f2f2; /* Light gray background color for table headers */
+}
+
+/* Button styling */
+.btn-verification {
+  padding: 10px 20px; /* Adjusted padding for better button appearance */
+  margin-top: 10px;
+  float: right;
+  background-color: #0074d9; /* Updated accent color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.btn-verification:hover {
+  background-color: #005ea6; /* Slightly darker shade on hover */
+}

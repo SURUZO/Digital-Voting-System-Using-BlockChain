@@ -1,0 +1,51 @@
+/* Updated CSS */
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; /* Updated font family for better readability */
+}
+
+/* Start button styling */
+.start-btn {
+  display: block;
+  padding: 15px 30px; /* Adjusted padding for better button appearance */
+  margin: 10px auto; /* Center the button horizontally */
+  min-width: max-content;
+  text-align: center;
+  width: 60%; /* Adjusted width for better responsiveness */
+  background-color: #0074d9; /* Updated accent color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Start button hover effect */
+.start-btn:hover {
+  background-color: #005ea6; /* Slightly darker shade on hover */
+}
+
+/* Container styling */
+.container-main {
+  margin: 20px auto; /* Center the container horizontally */
+  padding: 20px;
+  background-color: #f9f9f9; /* Lighter background color */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Election status styling */
+.election-status {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Additional styles for clarity */
+.container-item {
+  margin-bottom: 15px;
+  text-align: center;
+}

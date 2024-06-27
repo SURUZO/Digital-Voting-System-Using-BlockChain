@@ -1,0 +1,65 @@
+/* Center everything vertically and horizontally */
+.bg-emerald-500 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Styles for the container */
+.w-80 {
+    max-width: 80%;
+    text-align: center; /* Center align the content within the container */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Styles for the OTP input */
+.opt-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Styles for the icons */
+.bg-white {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Increase sizes */
+.text-xl {
+    font-size: 1.5rem; /* Increased font size for extra large text */
+}
+
+.text-3xl {
+    font-size: 3rem; /* Increased font size for larger headings */
+}
+
+/* Styles for the buttons */
+.bg-emerald-600 {
+    background-color: #059669;
+    transition: background-color 0.3s ease; /* Added transition for smooth hover effect */
+    width: 100%; /* Make the button full width */
+    max-width: 20rem; /* Limit maximum width */
+    margin-top: 1rem; /* Add margin at the top */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the button content vertically */
+    padding: 1.2rem 2rem; /* Adjusted padding for perfect centering */
+    margin: 0 auto; /* Center the button horizontally */
+}
+
+/* Hover effect for the buttons */
+.bg-emerald-600:hover {
+    background-color: #047857; /* Darker color on hover */
+}
+
+/* Ensure button text is visible */
+.text-white {
+    color: white;
+}
+
+/* Rounded corners for buttons */
+.rounded {
+    border-radius: 0.8rem; /* Increased border radius for rounded buttons */
+}
